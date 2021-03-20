@@ -1,4 +1,4 @@
-export const todos = (state = '', action) => {
+export const filters = (state = '', action) => {
   switch (action.type) {
     case 'APPLY_FILTER':
       return action.filter;
