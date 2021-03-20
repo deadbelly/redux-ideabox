@@ -1,8 +1,10 @@
 import React from 'react';
 
 const ToDo = ({ id, text, completed }) => {
+  const status = completed ? 'completed' : 'not-completed';
+
   return (
-    <li>{text}</li>
+    <li className={status}>{text}</li>
   )
 }
 
