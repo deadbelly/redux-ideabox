@@ -1,4 +1,5 @@
 import React from 'react';
+import { toggleComplete } from '../actions';
 
 const ToDo = ({ id, text, completed }) => {
   const status = completed ? 'completed' : 'not-completed';
